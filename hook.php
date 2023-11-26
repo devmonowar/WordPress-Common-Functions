@@ -37,3 +37,8 @@ function function_name($def){
 $value = "<h3> ekhane aro kicu add korbo </h3>";
 
 echo apply_filters( "ehitahobe", $value );
+
+
+add_action( string $hook_name, callable $callback, int $priority = 10, int $accepted_args = 1 ): true;
+
+add_filter( string $hook_name, callable $callback, int $priority = 10, int $accepted_args = 1 ): true;
